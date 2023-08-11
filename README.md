@@ -1,1 +1,0 @@
-# ANGU Software Blog
