@@ -29,12 +29,18 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  angu-software
 
 # Build settings
-theme: minima
+remote_theme: chesterhow/tale
+
+permalink:    /:year-:month-:day/:title
+paginate:     5
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-admin
   - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
